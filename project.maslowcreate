@@ -15,6 +15,13 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.982713915298185,
+                    "y": 0.5,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Input",
                     "name": "Shape",
                     "x": 30,
@@ -80,13 +87,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -125,8 +125,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 102,
-                    "y": 58,
+                    "x": 0.7140625,
+                    "y": 0.5364806866952789,
                     "uniqueID": 632755,
                     "ioValues": [
                         {
@@ -142,8 +142,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 295,
-                    "y": 50,
+                    "x": 0.84609375,
+                    "y": 0.3390557939914163,
                     "uniqueID": 225460,
                     "ioValues": [
                         {
@@ -153,10 +153,19 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.91953125,
+                    "y": 0.17167381974248927,
+                    "uniqueID": 950419,
+                    "ioValues": [],
+                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
+                },
+                {
                     "atomType": "Constant",
                     "name": "Constant - Radius",
-                    "x": 72,
-                    "y": 302,
+                    "x": 0.8093750000000001,
+                    "y": 0.6394849785407725,
                     "uniqueID": 832924,
                     "ioValues": [
                         {
@@ -166,13 +175,11 @@
                     ]
                 },
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 272,
-                    "y": 158,
-                    "uniqueID": 950419,
-                    "ioValues": [],
-                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.982713915298185,
+                    "y": 0.5,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -286,13 +293,6 @@
                     "uniqueID": 650474,
                     "ioValues": [],
                     "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
